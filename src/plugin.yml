@@ -1,0 +1,12 @@
+name: ExplosiveFist
+version: 0.1
+description: A plugin that adds an explosive effect to your punch.
+startup: POSTWORLD
+author: TotalInfinity
+main: com.github.TotalInfinity.ExplosiveFist.ExplosiveFist
+database: false
+commands:
+  ef:
+    description: Toggles ExplosiveFist
+    permissions: explosivefist.ef
+    usage: /<command> toggles the plugin
